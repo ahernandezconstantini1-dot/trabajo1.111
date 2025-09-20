@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Cambia valores en arreglo de bool
+// Cambia valores del booleano
 void modificar(bool arr[], int n) {
     for (int i = 0; i < n; i++) {
         arr[i] = (i % 2 != 0);
@@ -18,7 +18,7 @@ void modificar(int arr[], int n) {
 }
 
 int main() {
-    // Arreglo de bools
+    // Arreglo de booleanos
     bool buleano[5];
     modificar(buleano, 5);
 
