@@ -12,7 +12,7 @@ int main() {
     bool buleano[5];
     modificar(buleano, 5);
 
-    cout << " Booleano \n";
+    cout << " Booleano ";
     for (int i = 0; i < 5; i++) {
         cout << "Buleano[" << i << "] = "
             << buleano[i] << endl;
